@@ -16,7 +16,6 @@ read_id3_tag(File) ->
 	        Size = filelib:file_size(File),
             Result = analyse1(S, Size),
 	        file:close(S),
-            io:format("Result : ~p~n", [Result]),
 	    {File, Result};
         Error ->
             {File, Error}

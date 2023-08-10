@@ -9,5 +9,9 @@ Now you juste need to start the audio server using shout:start().
 
 Then you can use any client capable of streaming Icecast mp3 stream (Winamp, web browsers, etc).
 
-### Credits
+## Demo
+
+Demo website : [http://train.kaeios.fr/](http://train.kaeios.fr/)
+
+## Credits
 Code is based on snippets found in book "Programming Erlang, 2nd Edition Software for a Concurrent World" by Joe Armstrong
