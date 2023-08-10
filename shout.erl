@@ -146,7 +146,7 @@ unpack_song_descriptor({File, {_Tag,Info}}) ->
     {File, PrintStr, Header}.
 
 response() ->
-    ["ICY 200 OK\r\n",
+    ["HTTP/1.0 200 OK\r\n",
      "icy-notice1: <BR>This stream requires",
      "<a href=\"http://www.winamp.com/\">Winamp</a><BR>\r\n",
      "icy-notice2: Erlang Tutorial Shoutcast server<BR>\r\n",
